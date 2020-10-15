@@ -1,0 +1,19 @@
+{
+  "name": "@whiterussianstudio/tailwind-easing",
+  "version": "1.0.0",
+  "description": "Tailwind plugin that extend transitionTimingFunction with custom cubic-bezier function",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whiterussianstudio/tailwind-easing.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "tailwindcss-plugin",
+    "tailwind-plugin",
+    "tailwind-breakpoint",
+    "tailwind-debug"
+  ],
+  "author": "Pasha Frolov <pasha@whiterussianstudio.com>",
+  "license": "MIT"
+}
