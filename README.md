@@ -1,8 +1,9 @@
 ## Tailwind CSS Easings
-Tailwind plugin that extend `transitionTimingFunction` with custom cubic-bezier function
+
+Tailwind CSS plugin that extends `transitionTimingFunction` with custom Cubic Bézier functions.
 
 ```css
-  .ease-in-quad: {transition-timing-function: cubic-bezier(0.550,  0.085, 0.680, 0.530) }
+  .ease-in-quad: { transition-timing-function: cubic-bezier(0.550,  0.085, 0.680, 0.530) }
   .ease-in-cubic { transition-timing-function: cubic-bezier(0.550,  0.055, 0.675, 0.190) }
   .ease-in-quart: { transition-timing-function: cubic-bezier(0.895,  0.030, 0.685, 0.220) }
   .ease-in-quint: { transition-timing-function: cubic-bezier(0.755,  0.050, 0.855, 0.060) }
@@ -28,10 +29,13 @@ Tailwind plugin that extend `transitionTimingFunction` with custom cubic-bezier 
   .ease-in-out-back: { transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550) }
 ```
 
-### Installation and usage
-`npm install @whiterussianstudio/tailwind-easing --save-dev`
+### Installation and Setup
 
-Add plugin to `plugins` array in config file
+```
+npm install @whiterussianstudio/tailwind-easing --save-dev
+```
+
+Add plugin to a `plugins` array in the configuration file:
 
 ```js
 // tailwind.config.js
@@ -41,7 +45,7 @@ plugins: [
 ]
 ```
 
-Utils can be generated with Tailiwind `variants`
+If needed, utility variants can be generated with Tailiwind CSS `variants`:
 
 ```js
 // tailwind.config.js
@@ -50,4 +54,3 @@ variants: {
   ...
 }
 ```
-
